@@ -1,6 +1,12 @@
-function App() {
+import { BrowserRouter } from "react-router-dom";
+import Layout from "./Layout";
 
-  return <div className="App">Portal Web</div>;
+function App() {
+  return (
+    <BrowserRouter>
+      <Layout />
+    </BrowserRouter>
+  );
 }
 
 export default App;
